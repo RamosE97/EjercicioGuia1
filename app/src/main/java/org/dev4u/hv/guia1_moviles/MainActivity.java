@@ -32,15 +32,24 @@ public class MainActivity extends AppCompatActivity {
 
         //numeros  - aqui se agregarian los restantes
         lstNumeros = new ArrayList<>();
+
         lstNumeros.add( (Button) findViewById(R.id.btn9));
         lstNumeros.add( (Button) findViewById(R.id.btn8));
         lstNumeros.add( (Button) findViewById(R.id.btn7));
+        lstNumeros.add( (Button) findViewById(R.id.btn6));
+        lstNumeros.add( (Button) findViewById(R.id.btn5));
+        lstNumeros.add( (Button) findViewById(R.id.btn4));
+        lstNumeros.add( (Button) findViewById(R.id.btn3));
+        lstNumeros.add( (Button) findViewById(R.id.btn2));
+        lstNumeros.add( (Button) findViewById(R.id.btn1));
+        lstNumeros.add( (Button) findViewById(R.id.btn0));
 
         //operaciones matematicas  - aqui se agregarian las restantes
         lstOperaciones = new ArrayList<>();
         lstOperaciones.add( (Button) findViewById(R.id.btnSUM) );
         lstOperaciones.add( (Button) findViewById(R.id.btnRES) );
-
+        lstOperaciones.add( (Button) findViewById(R.id.btnMULTI) );
+        lstOperaciones.add( (Button) findViewById(R.id.btnDIV) );
         //eventos onClic
         btnAc.setOnClickListener(new View.OnClickListener() {
             @Override
